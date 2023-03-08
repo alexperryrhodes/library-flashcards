@@ -40,3 +40,18 @@
 .read-the-docs {
   color: #888;
 }
+
+.card {
+  border-style: solid;
+  border-color: white;
+}
+
+.front {
+  border-style: solid;
+  border-color: red;
+}
+
+.back {
+  border-style: solid;
+  border-color: green;
+}
