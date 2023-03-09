@@ -16,7 +16,8 @@ Part 1:
 - [x] **A list of card pairs is created**
 - [x] **Clicking on the card shows the corresponding component of the information pair**
 - [x] **Clicking the next button displays a random new card**
-Part 2
+
+Part 2:
 - [x] **The user can enter their guess in a box before seeing the flipside of the card**
 - [x] **Clicking on a submit button shows visual feedback about whether the answer was correct or incorrect**
 - [x] **A back button is displayed on the card and can be used to return to the previous card in a set sequence**
@@ -25,14 +26,14 @@ Part 2
 
 The following **optional** features are implemented:
 
+Part 1:
 - [ ] Cards contains images in addition to or in place of text
 - [ ] Cards have different visual styles such as color based on their category
+
+Part 2:
 - [ ] A user's answer may be counted as correct even when it is slightly different from the target answer
 - [x] A counter displays the user's current and longest streak of correct responses
 - [ ] A user can mark a card that they have mastered and have it removed from the pool of answers as well as added to a list of mastered cards
-
-The following **additional** features are implemented:
-
 
 ## Video Walkthrough
 
@@ -42,7 +43,7 @@ Part 1:
 ![Alt Text](https://raw.githubusercontent.com/alexperryrhodes/library-flashcards/main/gif3.gif)
 
 Part 2:
-![Alt Text](https://raw.githubusercontent.com/alexperryrhodes/library-flashcards/main/gif3.gif)
+![Alt Text](https://raw.githubusercontent.com/alexperryrhodes/library-flashcards/main/gifVideo1.gif)
 
 GIF created with ...  
 
