@@ -1,4 +1,4 @@
-# Web Development Project 2 - *Quotes Quiz*
+# Web Development Project 3 - *Quotes Quiz*
 
 Submitted by: **Alexandra Rhodes**
 
@@ -10,29 +10,43 @@ Time spent: **3** hours spent in total
 
 The following **required** functionality is completed:
 
+Part 1:
 - [x] **The title of the card set and some information about it, such as a short description and the total number of cards are displayed**
 - [x] **A single card at a time is displayed, only showing one of the components of the information pair**
 - [x] **A list of card pairs is created**
 - [x] **Clicking on the card shows the corresponding component of the information pair**
 - [x] **Clicking the next button displays a random new card**
+Part 2
+- [x] **The user can enter their guess in a box before seeing the flipside of the card**
+- [x] **Clicking on a submit button shows visual feedback about whether the answer was correct or incorrect**
+- [x] **A back button is displayed on the card and can be used to return to the previous card in a set sequence**
+- [x] **A next button is displayed on the card and can be used to navigate to the next card in a set sequence**
+- [ ] **A shuffle button is used to randomize the order of the cards**
 
 The following **optional** features are implemented:
 
 - [ ] Cards contains images in addition to or in place of text
 - [ ] Cards have different visual styles such as color based on their category
-  - [ ] *visual style implemented*
+- [ ] A user's answer may be counted as correct even when it is slightly different from the target answer
+- [x] A counter displays the user's current and longest streak of correct responses
+- [ ] A user can mark a card that they have mastered and have it removed from the pool of answers as well as added to a list of mastered cards
 
 The following **additional** features are implemented:
 
-* [x] Previous and next buttons are available and become disabled at beginning and end of card list 
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented required features:
+
+Part 1:
 ![Alt Text](https://raw.githubusercontent.com/alexperryrhodes/library-flashcards/main/gif3.gif)
 
+Part 2:
+![Alt Text](https://raw.githubusercontent.com/alexperryrhodes/library-flashcards/main/gif3.gif)
 
 GIF created with ...  
+
+Kap (https://getkap.co)
 
 ## License
 
