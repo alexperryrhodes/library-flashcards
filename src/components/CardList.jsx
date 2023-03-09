@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Card from "./Card";
 
 const CardList = ({ cards }) => {
@@ -13,8 +13,11 @@ const CardList = ({ cards }) => {
 
   function nextCard() {
     setCardIndex(cardIndex + 1);
-    updateButton();
   }
+
+  useEffect(() => {
+    updateButton();
+  }, [cardIndex]);
 
   function updateButton() {
     if (cardIndex === 0) {
@@ -22,8 +25,8 @@ const CardList = ({ cards }) => {
     } else if (cardIndex === cards.length - 1) {
       setNextIsDisabled(true);
     } else {
-        setPrevIsDisabled(false);
-        setNextIsDisabled(false);
+      setPrevIsDisabled(false);
+      setNextIsDisabled(false);
     }
   }
 
@@ -38,9 +41,6 @@ const CardList = ({ cards }) => {
       <button onClick={nextCard} disabled={nextIsDisabled}>
         Next
       </button>
-          <p>CardID: {cardIndex}</p>
-          <p>Prev:{prevIsDisabled}</p>
-          <p>Next: {nextIsDisabled}</p>
     </div>
   );
 };
