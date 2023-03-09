@@ -29,9 +29,9 @@ The following **additional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented required features:
+![Alt Text](https://raw.githubusercontent.com/alexperryrhodes/library-flashcards/main/gif3.gif)
 
 
-<!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  
 
 ## License
